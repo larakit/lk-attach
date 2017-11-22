@@ -1,0 +1,24 @@
+{
+    "name": "larakit/lk-attach",
+    "description": "[Larakit] attach",
+    "version": "1.0.0",
+    "keywords": [
+        "laravel",
+        "laravel 5",
+        "larakit"
+    ],
+    "license": "MIT",
+    "require": {
+        "larakit/lk-hashids": "*",
+        "laravel/framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larakit\\Attach\\": "src"
+        },
+        "files": [
+            "src/init.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
